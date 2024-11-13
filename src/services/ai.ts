@@ -1,6 +1,6 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const API_KEY = 'AIzaSyCYlQZUyF_6_HYb7aOpgjITNh7fwfXviMQ'; // Replace with your actual API key
+const API_KEY = 'api btw'; 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 export async function generateResponse(prompt: string, model: string) {
